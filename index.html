@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-image: url(https://obmontessori.orangeapps.ph/landing/obmontessori/images/Greenhills%20Facade.jpg); background-size: cover;
+        }
+
+        .container {
+        padding: 2rem;
+        max-width: 300px;
+        width: 100%;
+        border-radius: .75rem;
+        background-color: whitesmoke;
+        text-align: left;
+        }
+
+        footer {
+            color: white; text-align: center; padding: 25px; margin-top: 60px; }
+    </style>
+    <title>Bootstrap Forms & NavBar</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <img class="img-fluid" src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1789004299-2727.png" width="50" height="50">
+        <a class="navbar-brand" href="#">Operation Brotherhood Montessori Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavBar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#">Homepage</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+<br>
+    <div class="container">
+        <h1>Contact Us</h1>  
+
+            <form class="form">
+            <label><b>Full Name:</b></label><br>
+            <input type="text" class="Name" placeholder="Enter your full name"><br>
+
+            <label><b>Email Address:</b></label><br>
+            <input type="text" class="Gmail" placeholder="Enter your email"><br>
+
+            <label><b>Subject:</b></label><br>
+            <input type="text" class="Subject   " placeholder="Enter subject"><br>
+
+            <label><b>Message:</b></label><br>
+            <textarea name="Reason" cols="30" rows="5" placeholder="Type your message here"></textarea>
+            </form>
+
+            <div class="btn-group btn btn-primary">
+                <button type="submit" class="btn submit"><b>Send Message</b></button>
+            </div>
+    </div>
+<br>
+    <footer class="bg-dark">
+        2026 Kiesha Cassandra M Granados. All rights reserved.
+    </footer>
+</body>
+</html>
